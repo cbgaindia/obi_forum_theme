@@ -1,0 +1,15 @@
+<script>
+  // get the sticky element
+  window.addEventListener("DOMContentLoaded", (event) => {
+      window.addEventListener('scroll', () => {
+        const stickyElm = document.querySelector(".d-header");
+        console.log('testing', stickyElm.getBoundingClientRect())
+        if(stickyElm && stickyElm.getBoundingClientRect().top === 80){
+          stickyElm.classList.add('sticky')
+        }
+        else{
+          stickyElm.classList.remove('sticky')
+        }
+      });
+  });
+</script>
