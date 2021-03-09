@@ -1,0 +1,26 @@
+{
+    "name": "test-theme",
+    "component": false,
+    "license_url": null,
+    "about_url": null,
+    "authors": null,
+    "theme_version": null,
+    "minimum_discourse_version": null,
+    "maximum_discourse_version": null,
+    "assets": {
+      "footer-logo-horizontal": "assets/images/obi-footer-horizontal-logo.svg",
+      "footer-logo-square": "assets/images/obi-footer-square-logo.svg",
+      "cc-by-logo": "assets/images/cc-by-logo.svg",
+      "open-data-logo": "assets/images/open_data_logo.png",
+      "facebook-icon": "assets/images/facebook-icon.svg",
+      "github-icon": "assets/images/github-icon.svg",
+      "twitter-icon": "assets/images/twitter-icon.svg",
+      "go-to-icon": "assets/images/go-to-icon.svg",
+      "header-logo": "assets/images/header-logo.png"
+    },
+    "color_schemes": {
+    },
+    "modifiers": {
+    },
+    "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+  }
